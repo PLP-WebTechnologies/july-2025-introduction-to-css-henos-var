@@ -1,0 +1,59 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #004d40;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+main section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e0e0e0;
+  margin-top: 30px;
+}
+
+/* Box Model Demonstration (via padding/margins/borders) */
+section {
+  border: 1px solid #ccc;
+}
